@@ -4,8 +4,10 @@ public class TestClass {
   private int AGE;
 
 
-  public TestClass(int age) {
-    AGE = age;
+  public TestClass() {}
+
+  public TestClass(int AGE) {
+    this.AGE = AGE;
   }
 
   public static void main(String[] args) {
